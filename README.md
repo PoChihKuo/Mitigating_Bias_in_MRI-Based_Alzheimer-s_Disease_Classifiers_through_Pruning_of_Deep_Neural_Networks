@@ -1,5 +1,7 @@
 # Mitigating Bias in MRI-Based Alzheimer's Disease Classifiers through Pruning of Deep Neural Networks
 
+Part of the code was selected from the following GitHub repository: https://github.com/i6092467/diff-bias-proxies.
+
 ## Abstract
 With the increasing prevalence of Alzheimer’s disease among the elderly population, the development of machine learning models for early identification is crucial. However, it has been observed that these models may exhibit inherent biases, leading to performance disparities across protected attributes such as age and gender. In this study, we propose a model pruning method aimed at reducing bias and achieving model fairness in a pre-trained neural network designed for Alzheimer’s disease identification. Our pruning method takes into account both bias reduction and model performance. The results demonstrate that our proposed pruning method significantly reduces disparities between age and gender attributes compared to the baseline model. For disparity in age attributes, our method successfully reduces disparity across multiple metrics, such as true positive rate (−7.3%). Similarly, for gender attribute, our approach mitigated bias in evaluation metrics, such as true negative rate (−5.0%). The results also show that our method maintains or even improves the model’s performance and outperforms other methods across most evaluation metrics. These compelling findings underscore the immense potential of our approach in effectively mitigating gender and age disparities in MRI-based Alzheimer’s disease identification.
 
